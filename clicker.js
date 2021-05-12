@@ -1,1 +1,3 @@
-console.log("testando...")
+function imprimir(){
+    console.log("testando...")
+}
