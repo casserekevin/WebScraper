@@ -5,7 +5,10 @@ const run = () => {
         btn.click()
 
         let yesBtn = document.querySelectorAll('button.swal2-confirm.styled')
-        console.log(yesBtn)
+        yesBtn.click()
+
+        let okBtn = document.querySelectorAll('button.swal2-confirm.styled')
+        okBtn.click()
     })
 
 }
