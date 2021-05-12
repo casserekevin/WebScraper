@@ -1,4 +1,4 @@
-const run = () => {
+const excluirChecks = () => {
     let excluirBtns = document.querySelectorAll('button.btn.btn-danger')
 
     excluirBtns.forEach((btn) => {
