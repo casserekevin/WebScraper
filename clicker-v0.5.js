@@ -5,12 +5,12 @@ const excluirChecks = () => {
         btn.click()
 
         let yesBtn = document.querySelectorAll('button.swal2-confirm.styled')
-        yesBtn.forEach((btn) => {
-            btn.click()
+        yesBtn.forEach((btn2) => {
+            btn2.click()
         
             let okBtn = document.querySelectorAll('button.swal2-confirm.styled')
-            okBtn.forEach((btn) => {
-               btn.click() 
+            okBtn.forEach((btn3) => {
+               btn3.click() 
             }) 
         })
 
